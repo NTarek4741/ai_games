@@ -1,5 +1,7 @@
 # Troll Bridge Game
 
+> **Created as an ambassador for Dedalus Labs** — check out [https://dedaluslabs.ai](https://dedaluslabs.ai).
+
 A retro pixel-art Pygame challenge where an ancient troll guards a bridge over the Brooklyn Bridge. To cross, you must spin the challenge wheel and beat whatever mini-game the troll springs on you.
 
 The troll's brain is a **FastAPI server running on a [Dedalus Machine](https://dedaluslabs.ai)** (a cloud VM). For subjective mini-games (Card of Courage, Joke Toll), the server uses structured JSON-schema outputs via the Dedalus AI Agents API (`dedalus_labs`) to judge your attempt.
