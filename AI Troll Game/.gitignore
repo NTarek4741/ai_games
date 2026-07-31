@@ -1,0 +1,15 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# uv / venv
+.venv/
+
+# Environment variables
+.env
+
+# Provisioned machine registry (environment-specific, not secret but not portable)
+machine/machines.json
+
+# OS files
+.DS_Store

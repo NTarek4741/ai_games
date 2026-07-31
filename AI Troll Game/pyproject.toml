@@ -1,0 +1,14 @@
+[project]
+name = "troll-bridge-game"
+version = "0.4.0"
+description = "A troll guards a bridge; beat the mini-game its AI brain (a FastAPI server on a Dedalus Machine) picks for you to cross."
+requires-python = ">=3.10"
+dependencies = [
+    "pygame>=2.5.0",
+    "python-dotenv>=1.0.0",
+    "dedalus-sdk>=0.4.0",
+    "httpx>=0.27.0",
+]
+
+[tool.uv]
+package = false
